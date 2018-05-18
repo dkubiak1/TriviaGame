@@ -2,7 +2,7 @@ $(document).ready(function() {
     $("#img[src='']").hide();
     $(".answer").hide();
     
-    var choice = 0;
+    
     var right = 0;
     var wrong = 0;
     var intervalId;
@@ -51,11 +51,15 @@ $(document).ready(function() {
                         
                 
                 clock--; 
+                var audio = new Audio('assets/blop.mp3');
+                audio.play();
                 trivia.update();
                 if (clock === 0) {
                     counter++;
                     wrong++;
                     clearInterval(intervalId);
+                    var audio = new Audio('assets/quack.mp3');
+                    audio.play();
                     trivia.setClock();
                                     
                 }
@@ -91,7 +95,7 @@ $(document).ready(function() {
          
     $(".answer").on("click", function() {
         if (counter < trivia.quest.length) {   
-            choice = $(this).val();
+            var choice = $(this).val();
             if (choice == trivia.quest[n].ans) {
                 right++;
                 counter++;
