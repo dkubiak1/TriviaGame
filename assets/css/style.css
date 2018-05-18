@@ -1,0 +1,24 @@
+* {
+    font-size: 30px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/globe.jpg);
+}
+#container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 750px;
+    right: 500px;
+    border: 2px solid black;
+    text-align: center;
+    background: white;
+    
+}
+
+#clock {
+    font-size: 46px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geography Trivia</title>
+
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <style>
+    #question {
+        width: 500px; 
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+</head>
+<body>
+  
+
+<div id="container">
+    <h1>Trivia Game</h1>      
+    <div id="question">Click Start to Begin!!</div>
+    <div id= "row">    
+        <button id="answer1" class="answer" value="a1"></button>
+        <button id="answer2" class="answer" value="a2"></button>
+        <button id="answer3" class="answer" value="a3"></button>
+        <button id="answer4" class="answer" value="a4"></button>
+    </div>
+    
+    
+    <div id="timer"></div>
+    <div id="start-div">
+        <button id="start">Start</button>
+    </div>
+    <div id="right-or-wrong"></div>
+    
+    <div id="right" style="display:none;"></div>
+    <div id="wrong" style="display:none;"></div>
+    <div id="clock" style="color:red;"></div>
+    <div id="counter" style="color:green;display:none"></div>
+    <img id="img" src="" style="width: 200px;">
+</div>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
