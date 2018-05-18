@@ -19,7 +19,7 @@ $(document).ready(function() {
         
         {q: "What is the world's longest river?", a1: "Nile", a2: "Euphrates", a3: "Mississippi", a4: "Amazon", ans: "Amazon", ans: "Amazon", img: ""},
     
-        {q: "What is the world's tallest mountain?", a1: "K2", a2: "Mt. St. Helen's", a3: "Mt. Everest", a4: "Mt. Rushmore", ans: "Mt. Everest", img: ""}
+        {q: "What is the world's tallest mountain?", a1: "K2", a2: "Mt. St. Helens", a3: "Mt. Everest", a4: "Mt. Rushmore", ans: "Mt. Everest", img: ""}
     ],
         askQuestion : function(num) {
        
