@@ -67,9 +67,10 @@ $(document).ready(function() {
                        
             }, 1000);
             } else {
-                clearInterval(intervalId);
-                alert ("DONE");
-                trivia.results();
+                    clearInterval(intervalId);
+                    alert ("DONE");
+                    trivia.results()
+                
             }   
                 
         },
